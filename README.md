@@ -2,7 +2,7 @@
 
 ## Setup
 
-After cloning this repo make sure that you enable the Google Apps Script API in your [Google account](https://script.google.com/home/usersettings).
+First make sure to enable the Google Apps Script API in your [Google account](https://script.google.com/home/usersettings).
 
 ![Animation of toggling the Google Apps Script API option to "On"](https://user-images.githubusercontent.com/744973/54870967-a9135780-4d6a-11e9-991c-9f57a508bdf0.gif)
 
@@ -23,9 +23,10 @@ $ cd googlesheets-datapackage-tools
 $ clasp create --type standalone --title "Data Package Tools" --rootDir ./dist
 ```
 
-Lastly, run the `start` task.
+Lastly, install the dependencies and run the `start` task.
 
 ```
+$ npm i
 $ npm start
 ```
 
